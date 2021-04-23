@@ -22,12 +22,13 @@ body {
 .header {
   padding-top: 1rem;
   padding-bottom: 0.5rem;
-  position: relative;
   background: linear-gradient(101.22deg, #ffda01 2.49%, #ffc700 100.93%);
 }
 
 .header_inner {
   display: flex;
+  /* position: fixed;
+  z-index: 3; */
   justify-content: space-between;
   align-items: center;
   height: 40px;
@@ -310,12 +311,12 @@ input::placeholder {
   background-color: #f7f7f7;
   display: flex;
   position: relative;
-  font-size: medium;
   margin: 0;
 }
 
 .footer-inner {
   display: flex;
+  font-size: medium;
   margin: 0 80px;
   justify-content: space-between;
   align-items: center;
@@ -339,6 +340,28 @@ input::placeholder {
   cursor: pointer;
   text-decoration: none;
   color: #222222;
+}
+
+footer .container-footer {
+  max-width: 1200px;
+  display: flex;
+  margin: auto;
+  justify-content: space-between;
+}
+
+footer h4 {
+  text-transform: uppercase;
+  font-size: 12px;
+}
+
+footer ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+footer ul li {
+  margin-bottom: 15px;
+  font-family: 'Circular Book';
 }
 
 /* Login Page */
