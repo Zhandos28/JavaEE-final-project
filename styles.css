@@ -305,7 +305,7 @@ input::placeholder {
   cursor: pointer;
 }
 
-.footer {
+footer {
   height: 60px;
   border-top: 1px solid #dddddd;
   background-color: #f7f7f7;
@@ -317,7 +317,7 @@ input::placeholder {
 .footer-inner {
   display: flex;
   font-size: medium;
-  margin: 0 80px;
+  margin: 0 60px;
   justify-content: space-between;
   align-items: center;
   color: #222222;
