@@ -752,3 +752,17 @@ footer ul li {
   margin-top: 7px;
   font-weight: bold;
 }
+
+/* Balance */
+
+.balance-container {
+  width: 350px;
+  height: 300px;
+  margin-bottom: 30px;
+  position: relative;
+  display: block;
+  border-radius: 8px;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 1px 12px;
+  left: 500px;
+  /* bottom: -300px; */
+}
